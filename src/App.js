@@ -40,7 +40,7 @@ class App extends React.Component{
                 <h1>To-Do List</h1>
                 <form onSubmit={this.addItem}>
                     <input ref={(a) => this._inputElement=a} type="text" name="newTask" placeholder="Enter new task" id="taskField"/>
-                    <button type="submit" name="newTaskButton" id="newTaskButton">New Task</button>
+                    <br /><button type="submit" name="newTaskButton" id="newTaskButton">New Task</button>
                 </form>
             </div>
             <div className="tasks">
